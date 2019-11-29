@@ -10,7 +10,7 @@ def tah_pocitace(pole, symbol):
     ...
     return pole
 ```
-Následně spusťte testy pomocí `pytest -vs test_ai.py`.
+Následně spusťte testy pomocí `python -m pytest -vs test_ai.py`.
 Pokud vše funguje. Výstup by měl vypadat takto.
 ```
 ========================= test session starts =========================
