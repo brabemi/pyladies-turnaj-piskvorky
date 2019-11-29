@@ -76,7 +76,7 @@ def test_almost_full_end(ai):
     assert result.count('x') == 10
     assert result.count('o') == 10
 
-def test_almost_full_end(ai):
+def test_almost_full_end2(ai):
     """Hra na skoro plné pole (2× volno na konci)"""
     pole = 'xooxxooxoxoxoxooxx--'
     result = ai.tah_pocitace(pole, 'x')
