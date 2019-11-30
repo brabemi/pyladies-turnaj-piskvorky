@@ -5,7 +5,7 @@ Soubory se strategiemi by se měly jmenovat podle autorky, např "petra.py"
 
 Potřebné knihovny se dají doinstalovat pomocí:
 
-    pip install pytest blessings
+    pip install pytest blessed
 """
 
 # Tento program používá spoustu nových či složitých věcí.
@@ -18,7 +18,7 @@ import collections
 import importlib
 import argparse
 
-import blessings
+import blessed
 import pytest
 
 import strategie
@@ -144,7 +144,7 @@ def wait():
         input()
 
 # Objekt "Terminal" nám umožní např. vypisovat barevný text
-term = blessings.Terminal()
+term = blessed.Terminal()
 
 
 def hr(symbol='=', color=term.green):
