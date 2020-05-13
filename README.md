@@ -1,10 +1,10 @@
 # Turnaj - piškvorky
 
 ## Instalace
-Aktivujte virtuální prostředí. Nainstalujte závisloti pomocí příkazu `python -m pip install -r requirements.txt`
+Aktivujte virtuální prostředí. Nainstalujte závislosti pomocí příkazu `python -m pip install -r requirements.txt`
 
 ## Testování
-Do souboru `ai.py` vložte funci `def tah_pocitace(pole, symbol):` a další pomocné fukce, které tati funkce potřebuje.
+Do souboru `ai.py` vložte funkci `def tah_pocitace(pole, symbol):` a další pomocné funkce, které tato funkce potřebuje.
 ```
 def tah_pocitace(pole, symbol):
     ...
